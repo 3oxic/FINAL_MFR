@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+
+package sendData;
+
+// Defines the service
+service SendData {
+    // Function invoked to send the request
+    rpc sendRequest (clientPacket) returns (serverPacket) {}
+}
+
+// The request message containing requested numbers
+message clientPacket {
+    string packetType = 1;
+    bytes byteString = 2;
+    int32 sizeOf = 3;
+}
+
+// The response message containing response
+message serverPacket {
+    string packetType = 1;
+    bytes byteString = 2;
+    int32 singleElementSize = 3;
+    int32 totalSize = 4;
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -Werror -std=c++11 -g   CMakeFiles/GRPC_SERVER.dir/sendData.pb.cc.o CMakeFiles/GRPC_SERVER.dir/sendData.grpc.pb.cc.o CMakeFiles/GRPC_SERVER.dir/Server/Server.cpp.o CMakeFiles/GRPC_SERVER.dir/Client/_stubClass/client_stub.cpp.o  -o GRPC_SERVER 

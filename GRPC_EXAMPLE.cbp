@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GRPC_EXAMPLE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ntallaris/CLionProjects/GRPC_EXAMPLE"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ntallaris/CLionProjects/GRPC_EXAMPLE"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRPC_EXAMPLE">
+				<Option output="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/GRPC_EXAMPLE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntallaris/CLionProjects/GRPC_EXAMPLE"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 GRPC_EXAMPLE"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GRPC_EXAMPLE/fast">
+				<Option output="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/GRPC_EXAMPLE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ntallaris/CLionProjects/GRPC_EXAMPLE"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 GRPC_EXAMPLE/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ntallaris/CLionProjects/GRPC_EXAMPLE"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Debug/hexdump/hexdmp.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Debug/hexdump/ΗexDump.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Debug/hexdump/ΗexDump.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Driver/Driver.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Driver/Driver.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Recipe/RecipeItem/RecipeItem.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Recipe/RecipeItem/RecipeItem.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Recipe/RecipeVector/RecipeVector.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Recipe/RecipeVector/RecipeVector.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/CallData.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/CallData.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/ClientPacket.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/ClientPacket.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/Server.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/Server.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/Server/ServerInfo.h">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/main.cpp">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/sendData.grpc.pb.cc">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/sendData.grpc.pb.cc.rule">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/sendData.pb.cc">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/sendData.pb.h.rule">
+			<Option target="GRPC_EXAMPLE"/>
+		</Unit>
+		<Unit filename="/home/ntallaris/CLionProjects/GRPC_EXAMPLE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
