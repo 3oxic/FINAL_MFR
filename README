@@ -1,0 +1,79 @@
+Source Code At: https://github.com/3oxic/BIG_DATA_ASSIGNMENT_3
+
+1.1 What did you build
+
+I Have Build an apache storm topology, were it monitor sensors.
+I assume that I have a stream of sensors data with temperatures.
+The spout will read this values and will emit them into the topology.
+Bolt is doing the filtering ( if the temperature is higher than 100)
+
+2.2 What  technology did you choose
+
+I chose Apache Storm. It is made for real-time stream proccessing. You can have a stream of many tuples incoming to the topology and it process them in real time.
+2.3 How can we install the framework of your choice to run your code?
+
+1.Download Apache Storm
+2.Move the tar into /usr/local
+3.Untar Apache Storm ( tar -xzf [STORM_TAR])
+4.Rename the untarred folder into /usr/local/storm (sudo mv [STORM_FOLDER] /usr/local/storm or just storm) 
+5.Do the same with zookeeper, (install,move into /usr/local, tar -xzf [ZOOKEEPER_TAR], sudo mv [ZOOKEEPER_FOLDER] /usr/local/zookeeper or just zookeeper)
+6. export the bin folders of zookeper and storm into ~/.bashrc
+ export ZOOKEEPER_PREFIX=/usr/local/zookeeper
+ export PATH=$PATH:$ZOOKEEPER_PREFIX/bin
+
+ export STORM_PREFIX=/usr/local/storm
+ export PATH=$PATH:$STORM_PREFIX/bin
+7. sudo ldconfig
+8. cd /usr/local/zookeeper/conf
+9. vi zoo.cfg
+10. Paste this:
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataDir=/usr/local/zookeeper
+clientPort=2181
+
+We can now start the zookeeper server with this command: (zkServer is located in /usr/local/zookeeper/bin)
+zkServer.sh start
+
+11. sudo vi /usr/local/storm/conf/storm.yaml
+12. Paste this:
+
+#Zookeeper configuration file
+ yaml storm.zookeeper.servers:
+ - "localhost"
+ yaml storm.local.dir: "/usr/local/storm"
+ yaml nimbus.host: "localhost"
+ yaml supervisor.slots.ports:
+ - 6700 - 6701 - 6702 - 6703
+
+Perfect, we can now start apache storm:
+cd /usr/local/storm/bin/
+./storm nimbus & ./storm supervisor & ./storm ui
+
+we can now go to localhost and see apache storm running
+
+
+2.4 What was hard about building your application?
+To be honest it was not that hard building the application but what was hard is  doing the whole setup correctly.
+Also it took me a little bit to understand the basic concept of apache storm (saw from the slides Spout, Bolt, Topology etc.)
+
+2.5 What did you think was intuitive about the API/SDK that you used?
+
+Its easy to make a topology as long as you understand the concept. All you have to do is to override some functions. At the end the code looks very clear.
+
+2.6 Why do you think the developers made the API/SDK the way they did?
+
+I think you can easily integrate it with other tools such as apache kafka and elasticsearch. It does not need many modifications.
+
+2.7 What changes would you make to the API/SDK to improve it?
+
+If I had to do something for improvement I would make an IDE in which you could build your topology as long as run it.
+
+2.8 What did you learn in the process of building your application?
+
+I have learned how to make apache storm topologies as well as I understood basic concepts behind apache storm.
+
+2.9 What was most surprising?
+
+I opened more than one spout, just because I was curious how well will apache storm perform. I was opening more and more spouts(3 spouts in total) spamming into the topology  and it did pretty well.
